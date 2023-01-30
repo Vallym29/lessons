@@ -1,0 +1,49 @@
+/* * {
+   color: brown;
+} */
+div {
+   color: blue;
+}
+a {
+   color: aquamarine;
+}
+.text_1 {
+   color: rgb(175, 124, 222);
+}
+#p-1 {
+   color: rgb(195, 23, 181);
+}
+div.text_2 {
+   color: rgb(192, 192, 25);
+}
+.list_2 {
+   color: rgb(98, 255, 14);
+}
+.text_3.hero {
+   color: rgb(171, 86, 216);
+}
+.text_4 {
+   color: aqua;
+}
+.list_8 {
+   color: chocolate;
+}
+.list_7,
+.list_6 {
+   color: deeppink;
+}
+.warner p {
+   color: lightcoral;
+}
+.text_4 .edvard {
+   color: yellowgreen;
+}
+.list_4 * {
+   color: darksalmon;
+}
+.paragraph_1 > h4 {
+   color: crimson;
+}
+[class*="paragraph_"] {
+   color: darkorange;
+}
