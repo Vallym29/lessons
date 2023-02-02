@@ -1,0 +1,96 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=El+Messiri:regular,600);
+@font-face {
+   font-family: 'AnastasiaScript';
+   src: url('../fonts/AnastasiaScript.woff2') format('woff2'), url('../fonts/AnastasiaScript.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+body {
+  font-family: "El Messiri";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(33, 18, 94);
+  text-align: justify;
+  line-height: 1.3;
+  text-indent: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+h1 {
+   font-family: "Comfortaa";
+   font-size: 30px;
+   font-style: italic;
+   font-weight: 700;
+   color: blue;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+   line-height: 3;
+   letter-spacing: 5px;
+   word-spacing: 5px;
+}
+.introduction {
+  font-size: 20px;
+  font-weight: 600; 
+  color: rgb(74, 28, 116);
+  text-shadow: 2px 2px 5px rgb(132, 157, 233);
+  text-align: center;
+}
+p.contents {
+   font-family: AnastasiaScript;
+   font-size: 40px;
+   color: brown;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 2px 2px 5px palevioletred;
+}
+ul.contents {
+   font-family: AnastasiaScript;
+   font-size: 40px;
+   color: rgb(39, 137, 137);
+   text-decoration: underline;
+}
+h2 {
+   font-family: "Comfortaa";
+   font-size: 20px;
+   font-style: italic;
+   font-weight: 700;
+   color: rgb(48, 48, 163);
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+   line-height: 3;
+   letter-spacing: 5px;
+   word-spacing: 5px;
+   text-shadow: 2px 2px 5px;
+}
+.creator,
+.navigation {
+   font-family: AnastasiaScript;
+   font-size: 40px;
+   color: rgb(39, 137, 137);
+   text-decoration: underline;
+}
+span {
+   font-family: AnastasiaScript;
+   font-size: 40px;
+   color: rgb(39, 137, 137);
+   text-decoration: underline;
+}
+[class*="text_"] {
+   font-family: "El Messiri";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   color: rgb(33, 18, 94);
+   text-align: justify;
+   line-height: 1.3;
+   text-indent: 20px;
+   letter-spacing: 0.5px;
+   word-spacing: 2px;
+}
+a {
+   text-shadow: 2px 2px 5px seagreen;
