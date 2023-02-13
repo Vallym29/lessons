@@ -1,0 +1,117 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700,700&display=swap);
+body {
+   font-family: Poppins;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 1.78;
+   color: #6C757D;
+}
+[class*="_container"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.article_text-block {
+   max-width: 816px;
+   margin: 0 auto 80px;
+}
+.article-title {
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 1.6;
+   color: #212529;
+   max-width: 605px;
+   margin-bottom: 40px;
+}
+p {
+   margin-bottom: 30px;
+}
+.article-image {
+   max-width: 100%;
+   margin-bottom: 80px
+   ;
+}
+.images {
+   margin-bottom: 80px;
+   font-size: 0;
+}
+.image-1 {
+   max-width: 100%;
+   margin-right: 30px;
+}
+.image-2 {
+   max-width: 100%;
+}
+.article-image {
+   margin: 0 0 80px 0;
+   width: 100%;
+}
+.lesson {
+   margin-left: 15px;
+}
+.autor {
+   margin-left: 15px;
+}
+
+
+
+.button {
+   display: inline-block;
+   padding: 10px;
+   background-color: aqua;
+   color: rgb(49, 94, 79);
+   border-radius: 15px;
+   border: 5px solid #63aae9;
+   box-shadow: 0 5px 0 0 #154a77;
+   margin-bottom: 20px;
+   position: relative;
+   top: 0;
+   transition: all 0.3s;
+}
+.button:hover {
+   top: 3px;
+   box-shadow: 0 2px 0 0 #000;
+}
+.study {
+   max-width: 816px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   padding-bottom: 50px;
+}
+.p-1 {
+   border: 5px solid #154a77;
+}
+.p-2 {
+   border: 5px dotted #63aae9;
+}
+.p-3 {
+   border: 5px dashed #28b46e;
+}
+.p-4 {
+   border: 5px double #beae1c;
+}
+.p-5 {
+   border-bottom: 5px dotted #be551c;
+}
+.p-6 {
+   border: 5px solid #ae1bab;
+   border-top: none;
+}
+.i-1 {
+   border-radius: 72% 28% 77% 23% / 49% 30% 70% 51% ;
+   opacity: 0.5;
+}
+.i-2 {
+   border-radius: 50% ;
+}
+.p-7 {
+   outline: 10px solid #ae1b38;
+}
+.p-8 {
+   box-shadow: 5px 5px 10px 5px #63aae9, inset 5px 5px 10px 5px #28b46e;
+}
+.p-9 {
+   visibility: hidden;
+}
