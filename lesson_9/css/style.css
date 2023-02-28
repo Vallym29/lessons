@@ -1,0 +1,61 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap);
+body {
+   background: rgb(186, 132, 132);
+   font-family: "Roboto Condensed";
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.5;
+}
+[class*="_container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+header {
+   font-size: 20px;
+   color: rgb(44, 79, 68);
+}
+.images_container {
+   background: rgb(173, 118, 98) ;
+   border-radius: 20px;
+   margin-bottom: 50px;
+   padding: 30px;
+}
+.title {
+   font-weight: 700;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom: 20px;
+   color: rgb(38, 112, 87);
+   text-decoration:underline;
+}
+p {
+   max-width: 1000px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.image-1 {
+   width: 100%;
+   margin: 0 auto;
+   border-radius: 20px;
+   margin-bottom: 20px;
+}
+.images_container img:not(:first-of-type) {
+   border-radius: 20px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.icon_container {
+   background: #c76b6b;
+   border-radius: 20px;
+   padding: 30px;
+   margin-bottom: 50px;
+}
+.design_container {
+background: url("../img/design/1.svg") 0 0 no-repeat, url("../img/design/2.svg") 13% 58% no-repeat, url("../img/design/3.svg") 33% 35% no-repeat, url("../img/design/4.svg") 0 100% no-repeat, url(../img/design/5.svg) 100% 0 no-repeat, url("../img/design/6.svg") 100% 0 no-repeat, url("../img/design/7.svg") 0 100% no-repeat, url("../img/design/8.svg") 65% 30% no-repeat, url("../img/design/9.svg") 100% 100% no-repeat, url("../img/design/10.svg") 35% no-repeat, #d69393;
+   padding: 100px;
+   border-radius: 20px;
+}
