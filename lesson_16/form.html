@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style-form.css">
+   <title>Form</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <h1 class="header__title">Form</h1>
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <div class="main__form form-tailgrids">
+               <form action="#" method="post" enctype="multipart/form-data">
+                  <h2 class="form-tailgrids__title">Billing Details</h2>
+                  <div class="form-tailgrids__top form-top">
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="first name" placeholder="First name*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="last name" placeholder="Last name*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="address" placeholder="Address*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="address line 2" placeholder="Address line 2">
+                     </div>
+                     <div class="form-top__item">
+                        <select class="form-top__select select-form-top" name="country" id="country" required>
+                           <option class="select-form-top__option" value="">Country*</option>
+                           <option class="select-form-top__option" value="Ukraine">Ukraine</option>
+                           <option class="select-form-top__option" value="USA">USA</option>
+                           <option class="select-form-top__option" value="Poland">Poland</option>
+                           <option class="select-form-top__option" value="Lithuania">Lithuania</option>
+                           <option class="select-form-top__option" value="Estonia">Estonia</option>
+                        </select>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="city/town" placeholder="City/Town*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="postcode/zip" placeholder="Postcode / ZIP*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="tel" name="phone" placeholder="Phone*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="text" name="postcode/zip" placeholder="Postcode / ZIP*" required>
+                     </div>
+                     <div class="form-top__item">
+                        <input class="form-top__input" type="tel" name="phone" placeholder="Phone*" required>
+                     </div>
+                  </div>
+                  <div class="form-tailgrids__item tailgrids-textarea">
+                     <textarea class="tailgrids-textarea__item" name="additional information" autocomplete="off" placeholder="Additional information"></textarea>
+                  </div>
+                  <div class="form-tailgrids__block block-checkbox">
+                     <div class="block-checkbox__item">
+                        <input class="block-checkbox__input" type="checkbox" name="create account" id="create-01" checked>
+                        <label class="block-checkbox__label" for="create-01">Create Account</label>
+                     </div>
+                     <div class="block-checkbox__item">
+                        <input class="block-checkbox__input" type="checkbox" name="different address" id="different-address-01">
+                        <label class="block-checkbox__label" for="different-address-01">Ship to a different address?</label>
+                     </div>
+                  </div>
+                  <h2 class="form-tailgrids__subtitle">Apply Coupon to get discount!</h2>
+                 <div class="form-tailgrids__coupon coupon">
+                     <div class="coupon__item">
+                        <input class="coupon__input" type="text" name="coupon" placeholder="Coupon code">
+                     </div>
+                     <button class="coupon__button" type="button">Apply Code</button>
+                 </div>
+               </form>
+            </div>
+            <div class="main__form form-ecommerce">
+               <div class="form-ecommerce__top-form top-form">
+                  <form class="top-form__address" action="#" method="post" enctype="multipart/form-data">
+                     <h2 class="top-form__title">Shipping Address</h2>
+                    <div class="top-form__items">
+                        <div class="top-form__item">
+                           <label class="top-form__label" for="email-address-01">Email Address <span class="star">*</span></label>
+                           <input class="top-form__input" type="email" placeholder="roni_cost@example.com" required name="email address" id="email-address-01">
+                        </div>
+                        <div class="top-form__item">
+                           <label class="top-form__label" for="pass-01">Password</label>
+                           <input class="top-form__input" type="password" placeholder="******************" name="password" id="pass-01">
+                        </div>
+                        <div class="top-form__item">
+                           <label class="top-form__label" for="zip-01">Zip/Postal Code</label>
+                           <input class="top-form__input" type="text" name="postal code" id="zip-01">
+                        </div>
+                    </div>
+                     <div class="top-form__text">You already have an account with us. Sign in or continue as guest.</div>
+                     <div class="top-form__buttons">
+                        <button class="top-form__login" type="button">login</button>
+                        <button class="top-form__forgot-pass" type="button">Forgot Your Password?</button>
+                     </div>
+                  </form>
+               </div>
+               <div class="form-ecommerce__bottom-form bottom-form"> 
+                  <form class="bottom-form__questionnaire" action="#" method="post" enctype="multipart/form-data">
+                     <div class="bottom-form__items">
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="first-name-01">First Name <span class="star">*</span></label>
+                           <input class="bottom-form__input" type="text" required name="first name" id="first-name-01">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="last-name-01">Last Name <span class="star">*</span></label>
+                           <input class="bottom-form__input" type="text" required name="last name" id="last-name-01">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="company-01">Company</label>
+                           <input class="bottom-form__input" type="text" name="company" id="company-01">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="street-address-01">Street Address<span class="star">*</span></label>
+                           <input class="bottom-form__input" type="text" required name="street address" id="street-address-01">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="street-address-02"></label>
+                           <input class="bottom-form__input" type="text" name="street address" id="street-address-02">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="street-address-03"></label>
+                           <input class="bottom-form__input" type="text" name="street address" id="street-address-03">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="country-01">Country <span class="star">*</span></label>
+                           <input class="bottom-form__input" type="text" required name="country" id="country-01">
+                        </div>
+                        <div class="bottom-form__item">
+                           <label class="bottom-form__label" for="state-01">State/Province <span class="star">*</span></label>
+                           <select class="bottom-form__select select-form-bottom" name="state" id="state-01" required>
+                              <option class="select-form-bottom__option" value="">Please select a region, state or province</option>
+                              <option class="select-form-bottom__option" value="Ukraine">Ukraine</option>
+                              <option class="select-form-bottom__option" value="USA">USA</option>
+                              <option class="select-form-bottom__option" value="Poland">Poland</option>
+                              <option class="select-form-bottom__option" value="Lithuania">Lithuania</option>
+                              <option class="select-form-bottom__option" value="Estonia">Estonia</option>
+                           </select>
+                        </div>
+                     </div>
+                     <h4 class="bottom-form__title">Shipping Methods</h4>
+                     <div class="bottom-form__block shipping-methods">
+                        <div class="shipping-methods__items">
+                           <div class="shipping-methods__item">
+                              <input checked class="shipping-methods__input" id="5-01" value="5" name="price" type="radio">
+                              <label class="shipping-methods__label" for="5-01">$5.00</label>
+                           </div>
+                              <div class="shipping-methods__content content-shipping-methods">
+                                 <div class="content-shipping-methods__item">Fixed</div>
+                                 <div class="content-shipping-methods__item">Flat Rate</div>
+                              </div>
+                        </div>
+                        <div class="shipping-methods__items">
+                           <div class="shipping-methods__item">
+                              <input class="shipping-methods__input" id="10-01" value="10" name="price" type="radio">
+                              <label class="shipping-methods__label" for="10-01">$10.00</label>
+                           </div>
+                           <div class="shipping-methods__content content-shipping-methods">
+                              <div class="content-shipping-methods__item">Table Rate</div>
+                              <div class="content-shipping-methods__item">Best Way</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="bottom-form__buttons">
+                        <button class="bottom-form__next" type="button">next</button>
+                        <button class="bottom-form__back" type="button">back</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <span class="author">Valentyna 2023</span>
+      </footer>
+   </div>
+   
+</body>
+</html>

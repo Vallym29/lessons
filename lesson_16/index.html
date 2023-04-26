@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson_16</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         Lesson 16
+      </header>
+      <main class="main">
+         <div class="main__example example">
+            <div class="example__container">
+               <form class="example__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+                 <div class="example__block">
+                  <h2 class="example__title"> Input</h2>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Text </h4>
+                        <input name="name" value="" placeholder="user name" autocomplete="off"  minlength="5" type="text">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Text disabled </h4>
+                        <input name="password" value="" placeholder="password" maxlength="10" disabled type="text">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Text placeholder </h4>
+                        <label for="age-01">write your age</label>
+                        <input id="age-01" name="ege" value="" placeholder="your ege" autocomplete="on" minlength="2" type="text">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> E-mail </h4>
+                        <label for="mail-01">write your E-mail</label>
+                        <input id="mail-01" name="mail" value="" placeholder="your e-mail" type="email">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Hidden </h4>
+                        <input name="name" value="" type="hidden">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Tel </h4>
+                        <input name="phone" value="" placeholder="write your phone" autocomplete="off" required type="tel">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Password </h4>
+                        <input name="password" value="" placeholder="password" type="password">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Number </h4>
+                        <input name="number" value="" placeholder="number" autocomplete="off" type="number">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Color </h4>
+                        <input name="color" value="#ffffff" autocomplete="off" type="color">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Search </h4>
+                        <input name="search" value="" placeholder="search" autocomplete="off" type="search">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Data </h4>
+                        <input name="data" value="" autocomplete="off" type="date">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Range </h4>
+                        <input name="range" value="1" autocomplete="off" type="range">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Checkbox </h4>
+                        <label for="checkbox-01">do you have car?</label>
+                        <input id="checkbox-01" name="car" value="yes" type="checkbox">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Checkbox Checked </h4>
+                        <label for="checkbox-02">do you have pet?</label>
+                        <input id="checkbox-02" name="pet" value="yes" checked type="checkbox">
+                     </div>
+                     <div class="example__input radio">
+                        <h4 class="example__subtitle"> Radio </h4>
+                        <div class="radio__title">what operating system are you using?</div>
+                        <div class="radio__item">
+                           <input checked id="radio-01" required value="android" name="system" type="radio">
+                           <label for="radio-01">Android</label>
+                        </div>
+                        <div class="radio__item">
+                           <input id="radio-02" required name="system" value="ios" type="radio">
+                           <label for="radio-02">iOS</label>
+                        </div>
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> File </h4>
+                        <input name="file" accept="image/jpeg" multiple type="file">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Data Time </h4>
+                        <input name="datetime" value="" type="datetime-local">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Month </h4>
+                        <input name="month" value="" type="month">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Time </h4>
+                        <input name="time" value="" type="time">
+                     </div>
+                     <div  class="example__input">
+                        <h4 class="example__subtitle"> Week </h4>
+                        <input name="week" value="" type="week">
+                     </div>
+                 </div>
+                 <div class="example__block">
+                     <h2 class="example__title"> Textarea </h2>
+                     <div class="example__textarea textarea ">
+                        <textarea class="textarea__item" name="message">Write your text</textarea>
+                     </div>
+                 </div>
+                 <div class="example__block">
+                     <h2 class="example__title"> Select </h2>
+                     <label for="select-01">Country</label>
+                     <select name="list" id="select-01">
+                        <option value="ukraine">Ukraine</option>
+                        <option value="usa">USA</option>
+                        <option value="lithuania">Lithuania</option>
+                     </select>
+                  </div>
+                  <div class="example__block">
+                     <h2 class="example__title"> Button </h2>
+                     <div class="example__button button">
+                        <h4 class="button__title">Button</h4>
+                        <div class="button__item">
+                           <button type="button">Button</button>
+                        </div>
+                     </div>
+                     <div class="example__button button">
+                        <h4 class="button__title">Button Reset</h4>
+                        <div class="button__item">
+                           <button type="reset">Button Reset</button>
+                        </div>
+                     </div>
+                     <div class="example__button button">
+                        <h4 class="button__title">Button Submit</h4>
+                        <div class="button__item">
+                           <button type="submit">Button Submit</button>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="example__block style">
+                     <h2 class="style__title"> Style </h2>
+                     <div  class="style__checkbox checkbox-style">
+                        <h4 class="checkbox-style__subtitle"> Checkbox </h4>
+                        <input class="checkbox-style__input" id="checkbox-03" name="children" value="yes" type="checkbox">
+                        <label class="checkbox-style__label" for="checkbox-03">do you have children?</label>
+                     </div>
+                     <div class="style__radio radio-style">
+                        <h4 class="radio-style__subtitle"> Radio </h4>
+                        <div class="radio-style__title">which social network do you like?</div>
+                        <div class="radio-style__item">
+                           <input class="radio-style__input" checked id="radio-03" required value="instagram" name="social network" type="radio">
+                           <label class="radio-style__label" for="radio-03">Instagram</label>
+                        </div>
+                        <div class="radio-style__item">
+                           <input class="radio-style__input" id="radio-04" required name="social network" value="facebook" type="radio">
+                           <label class="radio-style__label" for="radio-04">Facebook</label>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <span class="footer__author">Valentyna 2023</span>
+         <div class="footer__next-page">
+            <a target="blank" class="footer__link" href="form.html">Next Page</a>
+         </div>
+      </footer>
+   </div>
+</body>
+</html>

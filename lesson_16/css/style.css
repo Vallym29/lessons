@@ -1,0 +1,209 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap");
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.wrapper > main {
+   flex-grow: 1;
+}
+.header {
+   font-family: "Inter", sans-serif;
+   font-size: 25px;
+   text-align: center;
+   padding: 20px 0px;
+   background-color: rgb(78, 76, 73);
+   color: rgb(251, 242, 231);
+   border-radius: 15px;
+   margin-bottom: 100px;
+}
+[class*="__container"] {
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+   max-width: 1200px;
+}
+.main {
+   margin-bottom: 100px;
+}
+.example {
+   background: rgb(249, 157, 123);
+   padding: 30px 0;
+   border-radius: 15px;
+}
+.example__container {
+   background-color: rgba(232, 179, 151, 0.5);
+   padding: 50px;
+   max-width: 500px;
+   border-radius: 15px;
+}
+.example__input {
+   margin-bottom: 20px;
+}
+input {
+   border-radius: 3px;
+}
+.radio-style__title,
+.radio__title {
+   margin-bottom: 10px;
+}
+.checkbox-style__subtitle,
+.radio-style__subtitle,
+.example__subtitle {
+   text-align: center;
+   font-size: 20px;
+   color: rgb(39, 247, 247);
+   max-width: 200px;
+   margin-bottom: 15px;
+   padding: 5px 30px;
+   background-color: rgb(214, 117, 117);
+   border-radius: 10px;
+}
+.example__block {
+   padding:30px;
+   background-color: rgba(231, 149, 149, 0.593);
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.style__title,
+.example__title {
+   text-align: center;
+   font-size: 20px;
+   color: rgb(213, 249, 249);
+   max-width: 200px;
+   margin: 0px auto 30px;
+   padding: 5px 30px;
+   background-color: rgb(172, 54, 54);
+   border-radius: 10px;
+}
+.textarea__item {
+   width: 100%;
+   height: 150px;
+   resize: vertical;
+}
+.button {
+   margin-bottom: 25px;
+}
+.button__title {
+   text-align: center;
+   font-size: 20px;
+   color: rgb(39, 247, 247);
+   max-width: 200px;
+   margin-bottom: 15px;
+   padding: 5px 30px;
+   background-color: rgb(214, 117, 117);
+   border-radius: 10px;
+}
+.button__item {
+   text-align: center;
+   font-size: 15px;
+   color: rgb(34, 36, 36);
+   max-width: 120px;
+   margin: 0px auto;
+   padding: 5px 10px;
+   background-color: rgb(234, 200, 200);
+   border-radius: 10px;
+   transition: all 0.5s;
+}
+.button__item:hover {
+   background-color: rgb(250, 113, 63);
+   transform: scale(1.1);
+   box-shadow: 5px 5px 10px 5px #603636;
+}
+.button__item:active {
+   box-shadow: -5px -5px 10px -5px #603636;
+}
+.footer {
+   font-family: "Inter", sans-serif;
+   font-size: 25px;
+   display: flex;
+   justify-content: space-around;
+   gap: 10px;
+   align-items: center;
+   padding: 20px 0px;
+   text-align: center;
+   background-color: rgb(78, 76, 73);
+   color: rgb(251, 242, 231);
+   border-radius: 15px;
+}
+.footer__next-page {
+   background: #603636;
+   padding: 10px 10px;
+   border-radius: 15px;
+   text-align: center;
+   color: rgb(34, 36, 36);
+   background-color: rgb(234, 200, 200);
+   transition: all 0.5s;
+}
+.footer__next-page:hover {
+   background-color: rgb(250, 113, 63);
+   transform: scale(1.1);
+   color: bisque;
+}
+.style__checkbox {
+   margin-bottom: 20px;
+}
+.checkbox-style {
+   position: relative;
+}
+.checkbox-style__label {
+   cursor: pointer;
+   display: inline-flex;
+   align-items: flex-start;
+   gap: 5px;
+}
+.checkbox-style__label::before {
+   content: "";
+   flex: 0 0 15px;
+   height: 15px;
+   background-color: #603636;
+   width: 15px;
+   border-radius: 3px;
+}
+.checkbox-style__input {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   opacity: 0;
+}
+.checkbox-style__input:focus-visible + .checkbox-style__label {
+   outline: 1px solid #000;
+}
+.checkbox-style__input:checked + .checkbox-style__label::before {
+   background-color: blue;
+}
+.radio-style__item {
+   position: relative;
+}
+.radio-style__input {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   opacity: 0;
+}
+.radio-style__label::before {
+   content: "";
+   flex: 0 0 15px;
+   height: 15px;
+   background-color: #603636;
+   width: 15px;
+   border-radius: 50%;
+}
+.radio-style__input:focus-visible + .radio-style__label {
+   outline: 1px solid #000;
+}
+.radio-style__input:checked + .radio-style__label::before {
+   background-color: blue;
+}
+.radio-style__label {
+   cursor: pointer;
+   display: inline-flex;
+   align-items: flex-start;
+   gap: 5px;
+}
