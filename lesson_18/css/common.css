@@ -1,0 +1,11 @@
+/* title page */
+.title {
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 1.6;
+   text-align: center;
+   color: #F8F9FA;
+}
+.title_black {
+   color: #212529;
+}
